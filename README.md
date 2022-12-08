@@ -22,7 +22,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -36,7 +35,7 @@
 <h3 align="center">Fake Review Classification With Fokus On Vector Representations</h3>
 
   <p align="center">
-    project_description
+   <!-- project_description -->
     <br />
     <a href="https://github.com/ItzCornflakez/mini-project-D7041E"><strong>Explore the docs »</strong></a>
     <br />
@@ -77,12 +76,24 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+This projekt is about classifying fake product reviews using different classifiers to figure out how well fake reviews can be detected and which classifier gets the best results
 
-This projekt is about classifying fake product reviews using different classifiers to figure out how well fake reviews can be detected and which classifier gets the est results
+
+### Classifiers
+The classifiers we have fokused on are Random Forest, AdaBoost, KNN, LinReg, SVM and MLP
+
+
+### Preprocessing
+For preprocessing we did tokenization, stopword removal, special character removal and lemmatization returning the text as lowercase. We do this to remove unuseful parts of the text that would not be helpful for classifying it.
+
+
+### Getting the optimal parameters
+To get the optimal parameters we utilised k-folding (k=3) on a validation set of 8% of the entire dataset (3234 rows)
+
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `ItzCornflakez`, `mini-project-D7041E`,  `Fake Review Classification With Fokus On Vector Representations`, `project_description`
+<!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `ItzCornflakez`, `mini-project-D7041E`,  `Fake Review Classification With Fokus On Vector Representations`, `project_description` -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -102,7 +113,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 To get a local copy up and running follow these simple example steps.
 
-This projekt was built on windows using anaconda which can be acquired on https://www.anaconda.com/products/distribution
+This projekt was built on windows using Anaconda which can be acquired on https://www.anaconda.com/products/distribution
 
 ### Prerequisites
 
@@ -127,15 +138,15 @@ in addition to anaconda som additional librarys need to be installed such as
    git clone https://github.com/ItzCornflakez/mini-project-D7041E.git
    ```
 2. Install librarys
-  ```sh
-  pip install sklearn
-  ```
-  ```sh
-  pip install pandas
-  ```
-  ```sh
-  pip install nltk
-  ```
+   ```sh
+   pip install sklearn
+   ```
+   ```sh
+   pip install pandas
+   ```
+   ```sh
+   pip install nltk
+   ```
 3. Run code using prefered JupyterLab code editor
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -146,6 +157,90 @@ in addition to anaconda som additional librarys need to be installed such as
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+## Results
+The results for the different classifiers are as follows
+
+### Random Forest
+#### Text based approach
+* with TF-IDF
+
+* with Bag-of-words
+
+#### Text and feature based approach
+* with TF-IDF
+
+* with Bag-of-words
+
+
+### AdaBoost
+#### Text based approach
+* with TF-IDF
+
+* with Bag-of-words
+
+#### Text and feature based approach
+* with TF-IDF
+
+* with Bag-of-words
+
+
+### KNN 
+#### Text based approach
+* with TF-IDF
+
+* with Bag-of-words
+
+#### Text and feature based approach
+* with TF-IDF
+
+* with Bag-of-words
+
+
+### LinReg
+#### Text based approach
+* with TF-IDF
+
+* with Bag-of-words
+
+#### Text and feature based approach
+* with TF-IDF
+
+* with Bag-of-words
+
+
+### SVM 
+#### Text based approach
+* with TF-IDF
+
+* with Bag-of-words
+
+#### Text and feature based approach
+* with TF-IDF
+
+* with Bag-of-words
+
+
+### MLP
+#### Text based approach
+* with TF-IDF
+
+* with Bag-of-words
+
+#### Text and feature based approach
+* with TF-IDF
+
+* with Bag-of-words
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+## Conclusions
+
+### Best Classifier and Models
+
+We found that from our tests the XXXXX model generally gave the best accuracy and the XXXXX classifier gave the overall highest accuracy
 
 _For additional explanations and findings, please refer to youtube video [Documentation](https://example.com)_ (Insert link to youtube video)
 
@@ -183,7 +278,7 @@ Youtube Link: [https://YoutubeLink](https://youtubeLink)
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Fake reviews dataset from OSFHOME: [Fake Reviews Dataset](https://osf.io/tyue9/)
+* Fake reviews dataset from OSFHOME: [Fake Reviews Dataset](https://osf.io/tyue9/)
 * []()
 * []()
 
