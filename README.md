@@ -161,6 +161,12 @@ Use this space to show useful examples of how a project can be used. Additional 
 ## Results
 The results for the different classifiers are as follows
 
+### Text based approach
+
+![alt text](https://github.com/ItzCornflakez/mini-project-D7041E/blob/master/images/text_based_accuracy.png?raw=true)
+
+### Text and feature based approach
+
 ### Random Forest
 #### Text based approach
 * with TF-IDF
