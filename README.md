@@ -101,7 +101,7 @@ To get the optimal parameters we utilised k-folding (k=3) on a validation set of
 
 ### Built With
 
-* [JupyterLab](https://jupyter.org/)
+* [Jupyter Notebook](https://jupyter.org/)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
