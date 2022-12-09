@@ -76,11 +76,10 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This projekt is about classifying fake product reviews using different classifiers to figure out how well fake reviews can be detected and which classifier gets the best results
-
+This project was made for the D7041E course at LTU taken at winter 2022. This project aims to use a handfull of different classifiers in order to classify fake reviews. Our main focus was to compare the TF-IDF and Bag of Words text embedding techniques.   
 
 ### Classifiers
-The classifiers we have fokused on are Random Forest, AdaBoost, KNN, LinReg, SVM and MLP
+The classifiers we have focused on are Random Forest, AdaBoost, KNN, SVM and MLP
 
 
 ### Preprocessing
@@ -90,8 +89,6 @@ For preprocessing we did tokenization, stopword removal, special character remov
 ### Getting the optimal parameters
 To get the optimal parameters we utilised k-folding (k=3) on a validation set of 8% of the entire dataset (3234 rows)
 
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 <!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `ItzCornflakez`, `mini-project-D7041E`,  `Fake Review Classification With Fokus On Vector Representations`, `project_description` -->
 
