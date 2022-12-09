@@ -76,7 +76,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This project was made for the D7041E course at LTU taken at winter 2022. This project aims to use a handfull of different classifiers in order to classify fake reviews. Our main focus was to compare the TF-IDF and Bag of Words text embedding techniques.   
+This project was made for the D7041E course at LTU taken at winter 2022. This project aims to use a handfull of different classifiers in order to classify fake reviews. Our main focus was to compare the performances you get when using TF-IDF and Bag of Words text embedding techniques.   
 
 ### Classifiers
 The classifiers we have focused on are Random Forest, AdaBoost, KNN, SVM and MLP
@@ -90,7 +90,7 @@ For preprocessing we did tokenization, stopword removal, special character remov
 To get the optimal parameters we utilised k-folding (k=3) on a validation set of 8% of the entire dataset (3234 rows)
 
 
-<!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `ItzCornflakez`, `mini-project-D7041E`,  `Fake Review Classification With Fokus On Vector Representations`, `project_description` -->
+<!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `ItzCornflakez`, `mini-project-D7041E`,  `Fake Review Classification With Focus On Word Embedding techniques`, `project_description` -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -161,79 +161,11 @@ The results for the different classifiers are as follows
 ### Text based approach
 
 ![alt text](https://github.com/ItzCornflakez/mini-project-D7041E/blob/master/images/text_based_accuracy.png?raw=true)
+Update picture here
 
 ### Text and feature based approach
 
-### Random Forest
-#### Text based approach
-* with TF-IDF
-
-* with Bag-of-words
-
-#### Text and feature based approach
-* with TF-IDF
-
-* with Bag-of-words
-
-
-### AdaBoost
-#### Text based approach
-* with TF-IDF
-
-* with Bag-of-words
-
-#### Text and feature based approach
-* with TF-IDF
-
-* with Bag-of-words
-
-
-### KNN 
-#### Text based approach
-* with TF-IDF
-
-* with Bag-of-words
-
-#### Text and feature based approach
-* with TF-IDF
-
-* with Bag-of-words
-
-
-### LinReg
-#### Text based approach
-* with TF-IDF
-
-* with Bag-of-words
-
-#### Text and feature based approach
-* with TF-IDF
-
-* with Bag-of-words
-
-
-### SVM 
-#### Text based approach
-* with TF-IDF
-
-* with Bag-of-words
-
-#### Text and feature based approach
-* with TF-IDF
-
-* with Bag-of-words
-
-
-### MLP
-#### Text based approach
-* with TF-IDF
-
-* with Bag-of-words
-
-#### Text and feature based approach
-* with TF-IDF
-
-* with Bag-of-words
+Update picture here
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
