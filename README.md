@@ -161,7 +161,7 @@ The results for the different classifiers are as follows
 ### Text based approach
 
 ![alt text](https://github.com/ItzCornflakez/mini-project-D7041E/blob/master/images/text_based_accuracy.png?raw=true)
-In the above image the best classifiers was SVM. It produced a better accuracy using the word embedding technique tfidf, as did most of the other classifiers. From this we concluded that tfidf was a more suited technique for this than bagofwords.
+In the above image the best classifiers was SVM. It produced a better accuracy using the word embedding technique TF-IDF, as did most of the other classifiers. From this we concluded that TF-IDF was a more suited technique for this than BagOfWords.
 
 ### Text and feature based approach
 
