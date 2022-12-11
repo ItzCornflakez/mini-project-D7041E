@@ -29,10 +29,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/ItzCornflakez/mini-project-D7041E">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+   <!-- <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
   </a>
 
-<h3 align="center">Fake Review Classification With Fokus On Vector Representations</h3>
+<h3 align="center">Fake Review Classification With Focus On Vector Representations</h3>
 
   <p align="center">
    <!-- project_description -->
@@ -160,12 +160,21 @@ The results for the different classifiers are as follows
 
 ### Text based approach
 
-![alt text](https://github.com/ItzCornflakez/mini-project-D7041E/blob/master/images/text_based_accuracy.png?raw=true)
+![alt text](https://github.com/ItzCornflakez/mini-project-D7041E/blob/master/images/mini_project_Result_textBased_Updated.PNG?raw=true) 
+<br />
 In the above image the best classifiers was SVM. It produced a better accuracy using the word embedding technique TF-IDF, as did most of the other classifiers. From this we concluded that TF-IDF was a more suited technique for this than BagOfWords.
-
-### Text and feature based approach
-
-Update picture here
+<br />
+<br />
+### Text based approach with voting
+![alt text](https://github.com/ItzCornflakez/mini-project-D7041E/blob/master/images/mini_project_Result_textBased_vote_BagOfWords.PNG?raw=true) 
+<br />
+Above is bag of words classification with voting <br />
+<br />
+<br />
+![alt text](https://github.com/ItzCornflakez/mini-project-D7041E/blob/master/images/mini_project_Result_textBased_vote_TFIDF.PNG?raw=true) 
+<br />
+Above is TF-IDF classification with voting
+<br />
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -175,7 +184,7 @@ Update picture here
 
 ### Best Classifier and Models
 
-We found that from our tests the XXXXX model generally gave the best accuracy and the XXXXX classifier gave the overall highest accuracy
+We found that from our tests the text based model generally gave the best accuracy and the SVM classifier gave the overall highest accuracy.
 
 _For additional explanations and findings, please refer to youtube video [Documentation](https://example.com)_ (Insert link to youtube video)
 
@@ -211,11 +220,9 @@ Youtube Link: [https://YoutubeLink](https://youtubeLink)
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+## Dataset
 
 * Fake reviews dataset from OSFHOME: [Fake Reviews Dataset](https://osf.io/tyue9/)
-* []()
-* []()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
