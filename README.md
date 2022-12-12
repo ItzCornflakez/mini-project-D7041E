@@ -97,6 +97,7 @@ To get the optimal parameters we utilised k-folding (k=3) on a validation set of
   <li>numpy 1.21.5</li>
   <li>pandas 1.4.4</li>
   <li>nltk 3.7</li>
+  <li>matplotlib 3.5.2</li>
 </ul>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -122,6 +123,9 @@ To get the optimal parameters we utilised k-folding (k=3) on a validation set of
    ```
    ```sh
    pip install tensorflow
+   ```
+   ```sh
+   pip install matplotlib
    ```
 3. Run code
 Open the project in your prefered jupyter notebook editor. In order to run the preprocessing part you go into the file ``` miniProjectPreprocessing.ipyn ``` and press the "Run All" button in the toolbar. The same method is used to run the  ``` miniProject.ipyn ``` file.    
