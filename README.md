@@ -128,7 +128,7 @@ To get the optimal parameters we utilised k-folding (k=3) on a validation set of
    pip install matplotlib
    ```
 3. Run code
-Open the project in your prefered jupyter notebook editor. In order to run the preprocessing part you go into the file ``` miniProjectPreprocessing.ipyn ``` and press the "Run All" button in the toolbar. The same method is used to run the  ``` miniProject.ipyn ``` file.    
+Open the project in your prefered jupyter notebook editor. In order to run the preprocessing part you go into the file ``` miniProjectPreprocessing.ipyn ``` and press the "Run All" button in the toolbar. The same method is used to run the  ``` miniProject.ipyn ``` file. At the second code block you will also find a seed variable with a value of <b>3765</b>. This variable is used for all random operations in order to make it possible to replicate our results.  
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
