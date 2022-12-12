@@ -172,7 +172,7 @@ Above is bag of words classification with voting.
 <br />
 Above is TF-IDF classification with voting.
 <br />
-Apart from the fact that the TF-IDF word embedding technique gave a better accuracy overall in the above results, the other classifers aprt from SVM gave such a bad accuracy they pulled down the overall accuracy in the voting process. This also applied when doing the vote for the 3 different features.  
+Apart from the fact that the TF-IDF word embedding technique gave a better accuracy overall in the above results, the other classifers apart from SVM gave such a bad accuracy they pulled down the overall accuracy in the voting process. This also applied when doing the vote for the 3 different features.  
 <br />
 
 <p align="right">(<a href="#top">back to top</a>)</p>
