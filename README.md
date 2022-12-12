@@ -32,7 +32,7 @@
    <!-- <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
   </a>
 
-<h3 align="center">Fake Review Classification With Focus On Vector Representations</h3>
+<h3 align="center">Fake Review Classification With Emphasis On Word Embedding Techniques</h3>
 
   <p align="center">
    <!-- project_description -->
@@ -73,67 +73,43 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This project was made for the D7041E course at LTU taken at winter 2022. This project aims to use a handfull of different classifiers in order to classify fake reviews. Our main focus was to compare the performances you get when using TF-IDF and Bag of Words text embedding techniques.   
+This project was made for the D7041E course at LTU taken at winter 2022. This project aims to use a handfull of different classifiers in order to classify fake reviews. Our main focus was to compare the performances of the different classifiers as well as how TF-IDF and Bag Of Word affects the results.   
 
 ### Classifiers
 The classifiers we have focused on are Random Forest, AdaBoost, KNN, SVM and MLP
 
-
 ### Preprocessing
 For preprocessing we did tokenization, stopword removal, special character removal and lemmatization returning the text as lowercase. We do this to remove unuseful parts of the text that would not be helpful for classifying it.
 
-
 ### Getting the optimal parameters
 To get the optimal parameters we utilised k-folding (k=3) on a validation set of 8% of the entire dataset (3234 rows)
-
 
 <!-- Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `ItzCornflakez`, `mini-project-D7041E`,  `Fake Review Classification With Focus On Word Embedding techniques`, `project_description` -->
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-### Built With
-
-* [Jupyter Notebook](https://jupyter.org/)
-
+### Requirment & Versions
+<ul>
+  <li>Python 3.11</li>
+  <li>Tensorflow 2.9.1</li>
+  <li>Scikit-learn 1.0.2</li>
+  <li>jupyter notebook 6.4.12</li>
+  <li>numpy 1.21.5</li>
+  <li>pandas 1.4.4</li>
+  <li>nltk 3.7</li>
+</ul>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-To get a local copy up and running follow these simple example steps.
-
-This projekt was built on windows using Anaconda which can be acquired on https://www.anaconda.com/products/distribution
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-
-in addition to anaconda som additional librarys need to be installed such as
-* pip
-  ```sh
-  pip install sklearn
-  ```
-  ```sh
-  pip install pandas
-  ```
-  ```sh
-  pip install nltk
-  ```
-
-### Installation
+### How to Run the Project
 
 1. Clone the repo
    ```sh
    git clone https://github.com/ItzCornflakez/mini-project-D7041E.git
    ```
-2. Install librarys
+2. Install all the required libraries and frameworks
    ```sh
-   pip install sklearn
+   pip install scikit-learn
    ```
    ```sh
    pip install pandas
@@ -141,16 +117,17 @@ in addition to anaconda som additional librarys need to be installed such as
    ```sh
    pip install nltk
    ```
-3. Run code using prefered JupyterLab code editor
+   ```sh
+   pip install numpy
+   ```
+   ```sh
+   pip install tensorflow
+   ```
+3. Run code
+Open the project in your prefered jupyter notebook editor. In order to run the preprocessing part you go into the file ``` miniProjectPreprocessing.ipyn ``` and press the "Run All" button in the toolbar. The same method is used to run the  ``` miniProject.ipyn ``` file.    
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 ## Results
 The results for the different classifiers are as follows
