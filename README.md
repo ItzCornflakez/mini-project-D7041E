@@ -168,20 +168,21 @@ In the above image the best classifiers was SVM. It produced a better accuracy u
 ### Text based approach with voting
 ![alt text](https://github.com/ItzCornflakez/mini-project-D7041E/blob/master/images/mini_project_Result_textBased_vote_BagOfWords.PNG?raw=true) 
 <br />
-Above is bag of words classification with voting <br />
+Above is bag of words classification with voting.
 <br />
 <br />
 ![alt text](https://github.com/ItzCornflakez/mini-project-D7041E/blob/master/images/mini_project_Result_textBased_vote_TFIDF.PNG?raw=true) 
 <br />
-Above is TF-IDF classification with voting
+Above is TF-IDF classification with voting.
 <br />
-
+Apart from the fact that the TF-IDF word embedding technique gave a better accuracy overall in the above results, the other classifers aaprt from SVM gave such a bad accuracy they pulled down the overall accuracy in the voting process. This also applied when doing the vote for the 3 different features.  
+<br />
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 ## Conclusions
-Something Something
+Our findings from this mini-project suggest that using the TF-IDF word embedding technique typically leads to better classification accuracy. Additionally, we found that using other features in combination with the preprocessed text, through majority voting, often results in lower accuracy compared to using only the preprocessed text. This is due to the low classification accuracy of the other features, meaning that they are not good at classifying reviews correctly.  The best results were obtained using an SVM classifier on the preprocessed text alone, resulting in an accuracy of around 89%. This indicates that this method can be an effective way to classify reviews for this particular dataset. However, it is important to note that the results of this mini-project may not be applicable to other datasets or classification tasks, and further evaluation may be necessary before using this method in a commercial setting.
 ### Best Classifier and Models
 
 We found that from our tests the text based model generally gave the best accuracy and the SVM classifier gave the overall highest accuracy.
