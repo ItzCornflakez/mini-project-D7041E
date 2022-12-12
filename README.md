@@ -37,9 +37,6 @@
   <p align="center">
    <!-- project_description -->
     <br />
-    <a href="https://github.com/ItzCornflakez/mini-project-D7041E"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
     <a href="https://github.com/ItzCornflakez/mini-project-D7041E">View Demo INSERT YOUTUBE LINK</a>
   </p>
 </div>
