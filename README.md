@@ -37,7 +37,7 @@
   <p align="center">
    <!-- project_description -->
     <br />
-    <a href="https://www.youtube.com/watch?v=tJPtGNwCURI">Press Here to View Presentation on Youtube LINK</a>
+    <a href="https://www.youtube.com/watch?v=tJPtGNwCURI">Press Here to View Presentation on Youtube</a>
   </p>
 </div>
 
@@ -165,8 +165,6 @@ Our findings from this mini-project suggest that using the TF-IDF word embedding
 
 We found that from our tests the text based model generally gave the best accuracy and the SVM classifier gave the overall highest accuracy.
 
-_For additional explanations and findings, please refer to youtube video [Documentation](https://example.com)_ (Insert link to youtube video)
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -192,7 +190,7 @@ Emil Nyberg - eminyb-9@student.ltu.se
 
 Project Link: [https://github.com/ItzCornflakez/mini-project-D7041E](https://github.com/ItzCornflakez/mini-project-D7041E)
 
-Youtube Link: [https://YoutubeLink]([https://youtubeLink](https://www.youtube.com/watch?v=tJPtGNwCURI))
+Youtube Link: [Youtube Link](https://www.youtube.com/watch?v=tJPtGNwCURI)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
