@@ -37,7 +37,7 @@
   <p align="center">
    <!-- project_description -->
     <br />
-    <a href="https://github.com/ItzCornflakez/mini-project-D7041E">View Demo INSERT YOUTUBE LINK</a>
+    <a href="https://www.youtube.com/watch?v=tJPtGNwCURI">Press Here to View Presentation on Youtube LINK</a>
   </p>
 </div>
 
@@ -192,7 +192,7 @@ Emil Nyberg - eminyb-9@student.ltu.se
 
 Project Link: [https://github.com/ItzCornflakez/mini-project-D7041E](https://github.com/ItzCornflakez/mini-project-D7041E)
 
-Youtube Link: [https://YoutubeLink](https://youtubeLink)
+Youtube Link: [https://YoutubeLink]([https://youtubeLink](https://www.youtube.com/watch?v=tJPtGNwCURI))
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
