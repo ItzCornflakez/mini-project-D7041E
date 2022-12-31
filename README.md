@@ -34,11 +34,11 @@
 
 <h3 align="center">Fake Review Classification With Emphasis On Word Embedding Techniques</h3>
 
-  <p align="center">
+  <h1 align="center">
    <!-- project_description -->
     <br />
     <a href="https://www.youtube.com/watch?v=tJPtGNwCURI">Press Here to View Presentation on Youtube</a>
-  </p>
+  </h1>
 </div>
 
 
